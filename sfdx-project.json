@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "source-packages",
+      "default": true
+    }
+  ],
+  "name": "huge-salesforce-org-packages",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "59.0"
+}
