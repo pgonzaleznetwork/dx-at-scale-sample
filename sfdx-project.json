@@ -1,12 +1,75 @@
 {
   "packageDirectories": [
-    {
-      "path": "source-packages",
-      "default": true
-    }
+      {
+          "path": "./source-packages/amoss",
+          "package": "amoss",
+          "versionNumber": "1.0.0.0"
+      },
+      {
+        "path": "./source-packages/apex-mockery",
+        "package": "apex-mockery",
+        "versionNumber": "1.0.0.0"
+      },
+      {
+        "path": "./source-packages/apex-trigger-actions-framework",
+        "package": "apex-trigger-actions-framework",
+        "versionNumber": "1.0.0.0"
+      },
+      {
+        "path": "./source-packages/dreamhouse-lwc",
+        "package": "dreamhouse-lwc",
+        "versionNumber": "1.0.0.0"
+      },
+      {
+        "path": "./source-packages/fflib-apex-common",
+        "package": "fflib-apex-common",
+        "versionNumber": "1.0.0.0"
+      },
+      {
+        "path": "./source-packages/fflib-apex-mocks",
+        "package": "fflib-apex-mocks",
+        "versionNumber": "1.0.0.0"
+      },
+      {
+        "path": "./source-packages/force-di",
+        "package": "force-di",
+        "versionNumber": "1.0.0.0"
+      },
+      {
+        "path": "./source-packages/lwc-recipes",
+        "package": "lwc-recipes",
+        "versionNumber": "1.0.0.0"
+      },
+      {
+        "path": "./source-packages/nebula-logger",
+        "package": "nebula-logger",
+        "versionNumber": "1.0.0.0"
+      },
+      {
+        "path": "./source-packages/salesforce-feature-flags",
+        "package": "salesforce-feature-flags",
+        "versionNumber": "1.0.0.0"
+      },
+      {
+        "path": "./source-packages/sfdx-community-deployment",
+        "package": "sfdx-community-deployment",
+        "versionNumber": "1.0.0.0"
+      },
+      {
+        "path": "./source-packages/twilio",
+        "package": "twilio",
+        "versionNumber": "1.0.0.0"
+      },
+      {
+          "path": "./src-temp",
+          "default": true
+      }
   ],
-  "name": "huge-salesforce-org-packages",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "59.0"
+  "sourceApiVersion": "59.0",
+  "packageAliases": {
+  },
+  "plugins": {
+  }
 }
