@@ -66,7 +66,7 @@ jobs:
     needs: quickbuild
     if: github.ref == 'refs/heads/main'
     environment:
-      name: DEV
+      name: UAT
     concurrency: dev
     steps:
       - uses: actions/checkout@v2
@@ -83,15 +83,15 @@ jobs:
           echo "${{ secrets.DEVHUB_SFDX_AUTH_URL }}" > ./authfile
           sf org login sfdx-url  -f authfile -a devhub
 
-      - name: Authenticate to DEV sandbox
+      - name: Authenticate to UAT sandbox
         run: |
-          echo "${{ secrets.DEV_SFDX_AUTH_URL }}" > ./dev_authfile
-          sf org login sfdx-url  -f ./dev_authfile -a dev
+          echo "${{ secrets.UAT_SFDX_AUTH_URL }}" > ./uat_authfile
+          sf org login sfdx-url  -f ./uat_authfile -a uat
 
-      - name: 'Deploy to DEV'
+      - name: 'Deploy to UAT'
         run: |
-          sfp dependency:install -u dev -v devhub
-          sfp orchestrator:deploy -u dev  --skipifalreadyinstalled -g "::group::,::endgroup::" 
+          sfp dependency:install -u uat -v devhub
+          sfp orchestrator:deploy -u uat  --skipifalreadyinstalled -g "::group::,::endgroup::" 
 
   buildAndPublish:
     name: 'Build and Publish'
