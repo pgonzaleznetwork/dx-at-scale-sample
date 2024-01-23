@@ -1,5 +1,6 @@
 public with sharing class FeatureFlagProvider implements IFeatureFlagProvider {
     
+    //added a new comment here
     public Set<String> getCustomPermissionNames(){
         Set<String> customPermissionNames = new Set<String>();
         List<CustomPermission> perms = [SELECT Id, DeveloperName FROM CustomPermission];
