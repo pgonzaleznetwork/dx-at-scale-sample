@@ -60,7 +60,7 @@ jobs:
           path: artifacts
 
   deploy:
-    name: 'Deploy to Dev'
+    name: 'Deploy to UAT'
     runs-on: ubuntu-latest
     container: ghcr.io/dxatscale/sfpowerscripts
     needs: quickbuild
