@@ -1,75 +1,127 @@
 {
   "packageDirectories": [
-      {
-          "path": "./source-packages/amoss",
-          "package": "amoss",
-          "versionNumber": "1.0.0.0"
-      },
-      {
-        "path": "./source-packages/apex-mockery",
-        "package": "apex-mockery",
-        "versionNumber": "1.0.0.0"
-      },
-      {
-        "path": "./source-packages/apex-trigger-actions-framework",
-        "package": "apex-trigger-actions-framework",
-        "versionNumber": "1.0.0.0"
-      },
-      {
-        "path": "./source-packages/dreamhouse-lwc",
-        "package": "dreamhouse-lwc",
-        "versionNumber": "1.0.0.0"
-      },
-      {
-        "path": "./source-packages/fflib-apex-common",
-        "package": "fflib-apex-common",
-        "versionNumber": "1.0.0.0"
-      },
-      {
-        "path": "./source-packages/fflib-apex-mocks",
-        "package": "fflib-apex-mocks",
-        "versionNumber": "1.0.0.0"
-      },
-      {
-        "path": "./source-packages/force-di",
-        "package": "force-di",
-        "versionNumber": "1.0.0.0"
-      },
-      {
-        "path": "./source-packages/lwc-recipes",
-        "package": "lwc-recipes",
-        "versionNumber": "1.0.0.0"
-      },
-      {
-        "path": "./source-packages/nebula-logger",
-        "package": "nebula-logger",
-        "versionNumber": "1.0.0.0"
-      },
-      {
-        "path": "./source-packages/salesforce-feature-flags",
-        "package": "salesforce-feature-flags",
-        "versionNumber": "1.0.0.0"
-      },
-      {
-        "path": "./source-packages/sfdx-community-deployment",
-        "package": "sfdx-community-deployment",
-        "versionNumber": "1.0.0.0"
-      },
-      {
-        "path": "./source-packages/twilio",
-        "package": "twilio",
-        "versionNumber": "1.0.0.0"
-      },
-      {
-          "path": "./src-temp",
-          "default": true
-      }
+    {
+      "path": "source-packages/amoss",
+      "package": "amoss",
+      "versionNumber": "0.1.0.NEXT",
+      "versionName": "ver 0.1",
+      "default": false,
+      "versionDescription": ""
+    },
+    {
+      "path": "source-packages/apex-mockery",
+      "package": "apex-mockery",
+      "versionNumber": "0.1.0.NEXT",
+      "versionName": "ver 0.1",
+      "default": false,
+      "versionDescription": ""
+    },
+    {
+      "path": "source-packages/apex-trigger-actions-framework",
+      "package": "apex-trigger-actions-framework",
+      "versionNumber": "0.1.0.NEXT",
+      "versionName": "ver 0.1",
+      "default": false,
+      "versionDescription": ""
+    },
+    {
+      "path": "source-packages/dreamhouse-lwc",
+      "package": "dreamhouse-lwc",
+      "versionNumber": "0.1.0.NEXT",
+      "versionName": "ver 0.1",
+      "default": false,
+      "versionDescription": ""
+    },
+    {
+      "path": "source-packages/fflib-apex-common",
+      "package": "fflib-apex-common",
+      "versionNumber": "0.1.0.NEXT",
+      "versionName": "ver 0.1",
+      "default": false,
+      "versionDescription": ""
+    },
+    {
+      "path": "source-packages/fflib-apex-mocks",
+      "package": "fflib-apex-mocks",
+      "versionNumber": "0.1.0.NEXT",
+      "versionName": "ver 0.1",
+      "default": false,
+      "versionDescription": ""
+    },
+    {
+      "path": "source-packages/force-di",
+      "package": "force-di",
+      "versionNumber": "0.1.0.NEXT",
+      "versionName": "ver 0.1",
+      "default": false,
+      "versionDescription": ""
+    },
+    {
+      "path": "source-packages/lwc-recipes",
+      "package": "lwc-recipes",
+      "versionNumber": "0.1.0.NEXT",
+      "versionName": "ver 0.1",
+      "default": false,
+      "versionDescription": ""
+    },
+    {
+      "path": "./source-packages/nebula-logger",
+      "package": "nebula-logger",
+      "versionNumber": "1.0.0.0"
+    },
+    {
+      "path": "source-packages/salesforce-feature-flags",
+      "package": "salesforce-feature-flags",
+      "versionNumber": "0.1.0.NEXT",
+      "versionName": "ver 0.1",
+      "default": false,
+      "versionDescription": ""
+    },
+    {
+      "path": "source-packages/sfdx-community-deployment",
+      "package": "sfdx-community-deployment",
+      "versionNumber": "0.1.0.NEXT",
+      "versionName": "ver 0.1",
+      "default": false,
+      "versionDescription": ""
+    },
+    {
+      "path": "source-packages/twilio",
+      "package": "twilio",
+      "versionNumber": "0.1.0.NEXT",
+      "versionName": "ver 0.1",
+      "default": false,
+      "versionDescription": ""
+    },
+    {
+      "path": "./src-temp",
+      "default": true
+    },
+    {
+      "path": "source-packages/nebula-logger",
+      "package": "negula-logger",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": ""
+    }
   ],
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "59.0",
   "packageAliases": {
+    "amoss": "0Ho3h0000008OnRCAU",
+    "apex-mockery": "0Ho3h0000008OnWCAU",
+    "apex-trigger-actions-framework": "0Ho3h0000008OnbCAE",
+    "dreamhouse-lwc": "0Ho3h0000008OngCAE",
+    "fflib-apex-common": "0Ho3h0000008OnlCAE",
+    "fflib-apex-mocks": "0Ho3h0000008OnqCAE",
+    "force-di": "0Ho3h0000008OnvCAE",
+    "lwc-recipes": "0Ho3h0000008Oo0CAE",
+    "negula-logger": "0Ho3h0000008Oo5CAE",
+    "salesforce-feature-flags": "0Ho3h0000008OoACAU",
+    "sfdx-community-deployment": "0Ho3h0000008OoFCAU",
+    "twilio": "0Ho3h0000008OoKCAU"
   },
-  "plugins": {
-  }
+  "plugins": {}
 }
