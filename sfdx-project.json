@@ -111,12 +111,6 @@
     "apex-trigger-actions-framework": "0Hoav00000000CvCAI",
     "dreamhouse-lwc": "0Hoav00000000EXCAY",
     "fflib-apex-common": "0Hoav00000000G9CAI",
-    "fflib-apex-mocks": "0Hoav00000000HlCAI",
-    "force-di": "0Hoav00000000JNCAY",
-    "lwc-recipes": "0Hoav00000000KzCAI",
-    "nebula-logger": "0Hoav00000000MbCAI",
-    "salesforce-feature-flags": "0Hoav00000000ODCAY",
-    "sfdx-community-deployment": "0Hoav00000000PpCAI",
-    "twilio": "0Hoav00000000RRCAY"
+    "fflib-apex-mocks": "0Hoav00000000HlCAI"
   }
 }
