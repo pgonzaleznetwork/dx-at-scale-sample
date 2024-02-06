@@ -65,9 +65,12 @@
       "versionDescription": ""
     },
     {
-      "path": "./source-packages/nebula-logger",
+      "path": "source-packages/nebula-logger",
       "package": "nebula-logger",
-      "versionNumber": "1.0.0.0"
+      "versionNumber": "0.1.0.NEXT",
+      "versionName": "ver 0.1",
+      "default": false,
+      "versionDescription": ""
     },
     {
       "path": "source-packages/salesforce-feature-flags",
@@ -96,19 +99,24 @@
     {
       "path": "./src-temp",
       "default": true
-    },
-    {
-      "path": "source-packages/nebula-logger",
-      "package": "negula-logger",
-      "versionName": "ver 0.1",
-      "versionNumber": "0.1.0.NEXT",
-      "default": false,
-      "versionDescription": ""
     }
   ],
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "59.0",
-  
-  "plugins": {}
+  "plugins": {},
+  "packageAliases": {
+    "amoss": "0Hoav000000009hCAA",
+    "apex-mockery": "0Hoav00000000BJCAY",
+    "apex-trigger-actions-framework": "0Hoav00000000CvCAI",
+    "dreamhouse-lwc": "0Hoav00000000EXCAY",
+    "fflib-apex-common": "0Hoav00000000G9CAI",
+    "fflib-apex-mocks": "0Hoav00000000HlCAI",
+    "force-di": "0Hoav00000000JNCAY",
+    "lwc-recipes": "0Hoav00000000KzCAI",
+    "nebula-logger": "0Hoav00000000MbCAI",
+    "salesforce-feature-flags": "0Hoav00000000ODCAY",
+    "sfdx-community-deployment": "0Hoav00000000PpCAI",
+    "twilio": "0Hoav00000000RRCAY"
+  }
 }
