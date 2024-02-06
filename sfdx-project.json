@@ -109,19 +109,6 @@
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "59.0",
-  "packageAliases": {
-    "amoss": "0Ho3h0000008OnRCAU",
-    "apex-mockery": "0Ho3h0000008OnWCAU",
-    "apex-trigger-actions-framework": "0Ho3h0000008OnbCAE",
-    "dreamhouse-lwc": "0Ho3h0000008OngCAE",
-    "fflib-apex-common": "0Ho3h0000008OnlCAE",
-    "fflib-apex-mocks": "0Ho3h0000008OnqCAE",
-    "force-di": "0Ho3h0000008OnvCAE",
-    "lwc-recipes": "0Ho3h0000008Oo0CAE",
-    "negula-logger": "0Ho3h0000008Oo5CAE",
-    "salesforce-feature-flags": "0Ho3h0000008OoACAU",
-    "sfdx-community-deployment": "0Ho3h0000008OoFCAU",
-    "twilio": "0Ho3h0000008OoKCAU"
-  },
+  
   "plugins": {}
 }
