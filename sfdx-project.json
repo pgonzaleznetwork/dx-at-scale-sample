@@ -49,54 +49,6 @@
       "versionDescription": ""
     },
     {
-      "path": "source-packages/force-di",
-      "package": "force-di",
-      "versionNumber": "0.1.0.NEXT",
-      "versionName": "ver 0.1",
-      "default": false,
-      "versionDescription": ""
-    },
-    {
-      "path": "source-packages/lwc-recipes",
-      "package": "lwc-recipes",
-      "versionNumber": "0.1.0.NEXT",
-      "versionName": "ver 0.1",
-      "default": false,
-      "versionDescription": ""
-    },
-    {
-      "path": "source-packages/nebula-logger",
-      "package": "nebula-logger",
-      "versionNumber": "0.1.0.NEXT",
-      "versionName": "ver 0.1",
-      "default": false,
-      "versionDescription": ""
-    },
-    {
-      "path": "source-packages/salesforce-feature-flags",
-      "package": "salesforce-feature-flags",
-      "versionNumber": "0.1.0.NEXT",
-      "versionName": "ver 0.1",
-      "default": false,
-      "versionDescription": ""
-    },
-    {
-      "path": "source-packages/sfdx-community-deployment",
-      "package": "sfdx-community-deployment",
-      "versionNumber": "0.1.0.NEXT",
-      "versionName": "ver 0.1",
-      "default": false,
-      "versionDescription": ""
-    },
-    {
-      "path": "source-packages/twilio",
-      "package": "twilio",
-      "versionNumber": "0.1.0.NEXT",
-      "versionName": "ver 0.1",
-      "default": false,
-      "versionDescription": ""
-    },
-    {
       "path": "./src-temp",
       "default": true
     }
