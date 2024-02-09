@@ -1,22 +1,6 @@
 {
   "packageDirectories": [
     {
-      "path": "source-packages/amoss",
-      "package": "amoss",
-      "versionNumber": "0.1.0.NEXT",
-      "versionName": "ver 0.1",
-      "default": false,
-      "versionDescription": ""
-    },
-    {
-      "path": "source-packages/apex-mockery",
-      "package": "apex-mockery",
-      "versionNumber": "0.1.0.NEXT",
-      "versionName": "ver 0.1",
-      "default": false,
-      "versionDescription": ""
-    },
-    {
       "path": "source-packages/apex-trigger-actions-framework",
       "package": "apex-trigger-actions-framework",
       "versionNumber": "0.1.0.NEXT",
@@ -33,22 +17,6 @@
       "versionDescription": ""
     },
     {
-      "path": "source-packages/fflib-apex-common",
-      "package": "fflib-apex-common",
-      "versionNumber": "0.1.0.NEXT",
-      "versionName": "ver 0.1",
-      "default": false,
-      "versionDescription": ""
-    },
-    {
-      "path": "source-packages/fflib-apex-mocks",
-      "package": "fflib-apex-mocks",
-      "versionNumber": "0.1.0.NEXT",
-      "versionName": "ver 0.1",
-      "default": false,
-      "versionDescription": ""
-    },
-    {
       "path": "./src-temp",
       "default": true
     }
@@ -58,11 +26,7 @@
   "sourceApiVersion": "59.0",
   "plugins": {},
   "packageAliases": {
-    "amoss": "0Hoav000000009hCAA",
-    "apex-mockery": "0Hoav00000000BJCAY",
     "apex-trigger-actions-framework": "0Hoav00000000CvCAI",
-    "dreamhouse-lwc": "0Hoav00000000EXCAY",
-    "fflib-apex-common": "0Hoav00000000G9CAI",
-    "fflib-apex-mocks": "0Hoav00000000HlCAI"
+    "dreamhouse-lwc": "0Hoav00000000EXCAY"
   }
 }
